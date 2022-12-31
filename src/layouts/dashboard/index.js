@@ -48,7 +48,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Bookings"
+                title="오늘의설문 예약"
                 count={281}
                 percentage={{
                   color: "success",
@@ -62,7 +62,7 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 icon="leaderboard"
-                title="Today's Users"
+                title="오늘의설문 완료"
                 count="2,300"
                 percentage={{
                   color: "success",
@@ -77,7 +77,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="success"
                 icon="store"
-                title="Revenue"
+                title="전체설문 완료"
                 count="34k"
                 percentage={{
                   color: "success",
@@ -92,7 +92,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="primary"
                 icon="person_add"
-                title="Followers"
+                title="추가설문 요청"
                 count="+91"
                 percentage={{
                   color: "success",
@@ -109,9 +109,9 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
-                  date="campaign sent 2 days ago"
+                  title="중증 응답자 수"
+                  description="daily response."
+                  date="updated 4 min ago"
                   chart={reportsBarChartData}
                 />
               </MDBox>
@@ -120,10 +120,10 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
-                  title="daily sales"
+                  title="중증 응답자 수 (월간)"
                   description={
                     <>
-                      (<strong>+15%</strong>) increase in today sales.
+                      (<strong>+15%</strong>) increase in today response.
                     </>
                   }
                   date="updated 4 min ago"
@@ -135,8 +135,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
+                  title="전체 응답자 수 (월간)"
+                  description="response in total"
                   date="just updated"
                   chart={tasks}
                 />

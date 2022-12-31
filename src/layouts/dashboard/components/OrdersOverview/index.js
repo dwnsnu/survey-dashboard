@@ -29,7 +29,7 @@ function OrdersOverview() {
     <Card sx={{ height: "100%" }}>
       <MDBox pt={3} px={3}>
         <MDTypography variant="h6" fontWeight="medium">
-          Orders overview
+          예약된 설문
         </MDTypography>
         <MDBox mt={0} mb={2}>
           <MDTypography variant="button" color="text" fontWeight="regular">
@@ -46,34 +46,34 @@ function OrdersOverview() {
       </MDBox>
       <MDBox p={2}>
         <TimelineItem
-          color="success"
+          color="error"
           icon="notifications"
-          title="$2400, Design changes"
-          dateTime="22 DEC 7:20 PM"
+          title="B 헬스장 설문 10회차"
+          dateTime="31 DEC 7:20 PM"
         />
         <TimelineItem
-          color="error"
-          icon="inventory_2"
-          title="New order #1832412"
-          dateTime="21 DEC 11 PM"
+          color="success"
+          icon="notifications"
+          title="C 대학교 설문 1회"
+          dateTime="2 JAN 11 PM"
         />
         <TimelineItem
           color="info"
-          icon="shopping_cart"
-          title="Server payments for April"
-          dateTime="21 DEC 9:34 PM"
+          icon="notifications"
+          title="다이어트 제품 A 설문 3주차"
+          dateTime="2 JAN 9:34 PM"
         />
         <TimelineItem
           color="warning"
-          icon="payment"
-          title="New card added for order #4395133"
-          dateTime="20 DEC 2:20 AM"
+          icon="notifications"
+          title="치료 부작용 설문 1주차"
+          dateTime="12 JAN 2:20 AM"
         />
         <TimelineItem
           color="primary"
-          icon="vpn_key"
-          title="New card added for order #4395133"
-          dateTime="18 DEC 4:54 AM"
+          icon="notifications"
+          title="다이어트 제품 B 설문 1주차"
+          dateTime="18 Jan 4:54 AM"
           lastItem
         />
       </MDBox>

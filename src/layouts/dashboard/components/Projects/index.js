@@ -64,7 +64,7 @@ function Projects() {
       <MDBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
         <MDBox>
           <MDTypography variant="h6" gutterBottom>
-            Projects
+            최근 완료 예정
           </MDTypography>
           <MDBox display="flex" alignItems="center" lineHeight={0}>
             <Icon
