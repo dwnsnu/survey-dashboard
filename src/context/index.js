@@ -82,7 +82,6 @@ function MaterialUIControllerProvider({ children }) {
     layout: "dashboard",
     darkMode: false,
   };
-
   const [controller, dispatch] = useReducer(reducer, initialState);
 
   const value = useMemo(() => [controller, dispatch], [controller, dispatch]);
